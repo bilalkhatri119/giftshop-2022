@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="ring3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="payment bg-dark text-white">
+            <div class="payment-product">
+                <div class="text-white">
+                    <h3 class="hthree h_3">Amour Engagement Ring 10k Gold</h3>
+                    <div class="price">
+                        <h4 class="hfour bg-dark">Rs: 93,599/-</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="payment-bill bg-dark">
+                <h3 class="hthree">Recipt Summary</h3>
+                <ul>
+                    <li>
+                        <span>93599 x 1 Item</span>
+                        <span>Rs: 93599.00</span>
+                    </li>
+                    <li>
+                        <span><label for="">Discount</label></span>
+                        <span><input class="dis_Code" type="text" placeholder="Enter Promo Code"></span>
+                    </li>
+                    <li>
+                        <span>Subtotal</span>
+                        <span>Rs: 93599.00</span>
+                    </li>
+                    <li>
+                        <span>Sale Tax : 17%</span>
+                        <span>Rs: 15912.00</span>
+                    </li>
+                    <li>
+                        <span>Total Amount</span>
+                        <span>Rs: 109511.00</span>
+                    </li>
+                </ul>
+                <hr>
+                <br>
+                <h3>Payment Information</h3>
+                <br>
+                <form action="/" class="payment_form">
+                    <div class="form_input">
+                        <input type="text" placeholder="Card Number" style="width: 95%">
+                    </div>
+                    <br>
+                        <div class="form_input">
+                            <select name="" id="">
+                                <option value="Month">Month</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="Year">Year</option>
+                            </select>
+                            <input type="text" placeholder="CVC" style="width: 30% !important;">
+                        </div>
+                        <br>
+                    <button class="btn btn-primary bg-dark text-white " style="width: 95%;" type="submit">Order Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+
+body {
+    
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.payment {
+    display: flex;
+    width: 95%;
+    height: 95%;
+    box-shadow: 10px 30px 30px 15px rgba(2, 2, 2, 0.2);
+    border-radius: 10px;
+}
+.payment-product {
+    padding: 40px;
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+    background-image:  linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.95) 100%), url(./Images/Rings/9_2_2.jpg);
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.payment-bill {
+    padding: 40px;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.pay-pro {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.hfour {
+    padding: 5px 17px;
+    display: inline-block;
+    border-radius: 20px 20px;
+}
+
+.dis_Code {
+    width: 175px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hthree {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;   
+}
+
+li {
+display: flex;
+justify-content: space-between;
+line-height: 3;
+}
+li:nth-last-child(1) {
+    font-size: 25px;
+    font-weight: 600;
+}
+hr {
+    border-color: white !important;
+}
+.payment_form input, select {
+    border: none;
+    background-color: white;
+    padding: 15px 10px;
+    width: 32%;
+}
+
+.payment_form .from_input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px !important;
+    font-weight: 800;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    @media screen and (max-width: 600px) {
+        li {
+            display: flex;
+            justify-content: space-between;
+            line-height: 3;
+            font-size: 15px;
+            font-weight: 500;
+      }
+      li:nth-last-child(1) {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .dis_Code {
+        width: 140px;
+        height: 30px;
+        border-radius: 4px;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+    .payment-product {
+        padding: 5px;
+        display: block;
+        align-items: block-end;
+        width: 100%;
+        height: 60%;
+        background-image:  linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.95) 100%), url(./Images/Rings/Brands/05.jpg));
+        border-radius: 10px;
+    }
+    .payment {
+        display: block;
+    }
+    /* .main_pay {
+         height: 100% !important;
+    } */
+    .payment-bill {
+        padding: 40px;
+        width: 100%;
+        height: auto;
+    }
+     .h_3 {
+        font-size: 25px !important;
+        font-weight: 500 !important;
+        position: absolute;
+        left: 30px;
+        top: 300px;
+    }
+    .hfour {
+        position: absolute;
+        left: 30px;
+        top: 400px;
+    }
+}
+      
